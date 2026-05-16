@@ -1,0 +1,57 @@
+# Secrets and private config
+.env
+.env.*
+!.env.example
+*.local
+*.secret
+secrets/
+private/
+credentials/
+credentials.*
+token.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local editor and OS files
+.vscode/
+.idea/
+.cursor/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Dependencies and generated output
+node_modules/
+dist/
+build/
+out/
+coverage/
+
+# Packaged addon artifacts
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+
+# WoW local account data and saved variables
+WTF/
+Cache/
+Logs/
+Errors/
+Screenshots/
+SavedVariables/
+*.lua.bak
